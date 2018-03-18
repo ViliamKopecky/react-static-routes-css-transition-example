@@ -31,6 +31,7 @@ class App extends React.Component {
           <nav>
             <Link to="/">Home</Link>
             <Link to="/about">About</Link>
+            <Link to="/about2">About2</Link>
             <Link to="/blog">Blog</Link>
           </nav>
           <Hero red={this.state.red}>

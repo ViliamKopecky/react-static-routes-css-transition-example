@@ -14,6 +14,16 @@ export default {
       {
         path: '/about',
         component: 'src/containers/About',
+        getData() {
+          return { red: true }
+        }
+      },
+      {
+        path: '/about2',
+        component: 'src/containers/About',
+        getData() {
+          return { red: false }
+        }
       },
       {
         path: '/blog',
